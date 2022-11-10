@@ -1,0 +1,27 @@
+.main1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 720px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.main2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 720px;
+    width: 100%;
+    position: absolute;
+    top: 720px;
+}
+.main3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 720px;
+    width: 100%;
+    position: absolute;
+    top: 1420px;
+}
