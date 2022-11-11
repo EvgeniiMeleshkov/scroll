@@ -1,58 +1,65 @@
 
 .header,
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 200px;
-  background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background: #eee;
 }
+
 .header {
-  margin-bottom: 25px
+
 }
 
 .scsy1st {
-  display: -webkit-box;
-  position: relative;
-  height: 100vh
-}
-.mainCon {
-overflow: auto;
-height: 700px;
-  text-align: left;
-}
-.text {
-  width: 100vw;
-  height: 700px;
+    display: -webkit-box;
+    position: relative;
+    height: 700px
 }
 
+.mainCon {
+    overflow: auto;
+    height: 700px;
+
+}
+
+.text {
+    width: 100vw;
+    height: 700px;
+}
+
+.text p {
+    margin: 0;
+}
 
 
 .pic {
-  overflow: hidden;
-  width: 500px;
-  height: 500px;
-  border: 5px solid snow;
-  margin-left: -608px;
-  margin-top: 10px;
-  margin-right: 481px;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+
+    margin-left: -608px;
+    margin-right: 481px;
 }
 
 .innerPic {
-width: 500px;
-height: 720px;
-background: none;
-overflow: hidden ;
-position: sticky;
-top: 0
+    width: 500px;
+    height: 700px;
+    background: none;
+    overflow: hidden;
+    position: sticky;
+    top: 70px;
 }
+
 .imgSection {
-overflow: hidden;
-height: 700px;
+    overflow: hidden;
+    height: 700px;
 }
+
 .imgSection img {
-width: 500px;
-height: 630px;
-object-fit: cover
+    width: 500px;
+    height: 700px;
+    object-fit: cover
 
 }
